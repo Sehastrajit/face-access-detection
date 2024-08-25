@@ -1,9 +1,8 @@
-
-# Face Detection Library
+# Face-Access Detection Library
 
 ![working](https://img.shields.io/badge/status-working-brightgreen)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-![PyPI Version](https://img.shields.io/pypi/v/face_detection_lib)
+![PyPI Version](https://img.shields.io/pypi/v/face-access-detection)
 
 A Python library for face detection using YOLOv8. This library enables real-time face detection via webcam, leveraging the YOLOv8 model for high-performance object detection.
 
@@ -18,17 +17,17 @@ A Python library for face detection using YOLOv8. This library enables real-time
 You can install the library via pip. Run the following command in your terminal:
 
 ```bash
-pip install face_detection_lib
+pip install face-access-detection
 ```
 
 ## Usage
 
-To use the `face_detection_lib` library for face detection, follow these steps:
+To use the `face-access-detection` library for face detection, follow these steps:
 
 ### Basic Usage
 
 ```python
-from face_detection_lib.detector import FaceDetector
+from face_access_detection.detector import FaceDetector
 
 # Initialize the FaceDetector
 detector = FaceDetector()
@@ -42,7 +41,7 @@ detector.run_webcam()
 You can customize the face detection by passing parameters to the `FaceDetector` class. For example, you can set a custom model path, labels, or confidence threshold:
 
 ```python
-from face_detection_lib.detector import FaceDetector
+from face_access_detection.detector import FaceDetector
 
 # Define custom parameters
 custom_model_path = 'path/to/your/custom/model.pt'
@@ -92,4 +91,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
-Thank you for using `face_detection_lib`!
+Thank you for using `face-access-detection`!
+
+---
